@@ -1,5 +1,5 @@
 import "../css/components.css";
-import webpacklogo from "../assets/img/webpack-logo.png";
+// import webpacklogo from "../assets/img/webpack-logo.png";
 
 export const saludar = ( nombre ) => {
 
@@ -9,9 +9,9 @@ export const saludar = ( nombre ) => {
 
     document.body.append( h1 );
 
-    const img = document.createElement('img');
-    img.src = webpacklogo;
-    document.body.append( img );
+    // const img = document.createElement('img');
+    // img.src = webpacklogo;
+    // document.body.append( img );
 
     
 }
