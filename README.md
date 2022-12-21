@@ -18,6 +18,11 @@ Para arrancar el server de Webpack:
 npm start 
 
 ```
+## Github pages
+#
+1. Renombrar la carpeta dist a docs,
+2. git push 
+
 
 
 
