@@ -1,4 +1,4 @@
-
+import "../css/components.css";
 
 export const saludar = ( nombre ) => {
 
