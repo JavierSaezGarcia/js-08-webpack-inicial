@@ -24,6 +24,10 @@ module.exports = {
                 test: /styles.css$/,
                 use: [ MiniCssExtractPlugin.loader, 'css-loader' ]
 
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/,
+                loader: 'file-loader'
             }
         ]
     },
@@ -36,6 +40,7 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: 'style.css',
+            //filename: '[name].[fullHash].css',
             ignoreOrder: false
         })
     ],
