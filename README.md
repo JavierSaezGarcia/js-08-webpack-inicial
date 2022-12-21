@@ -29,6 +29,18 @@ git commit -m "subir docs"
 git push 
 
 ```
+4. En la pestaña Settings seleccionar el link Pages.
+5. Click "Deploy from a branch"
+6. Seleccionar la rama en mi caso "main"
+7. Seleccionar folder/docs
+8. Click save... y esperar
+Nota: el nombre del repo sería el que corresponda la cuenta
+```
+Your site is live at https://javiersaezgarcia.github.io/js-08-webpack-inicial/
+Last deployed by @JavierSaezGarcia JavierSaezGarcia 1 minute ago
+```
+9. Click en visit site
+10. Enjoy
 
 
 
